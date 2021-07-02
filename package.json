@@ -1,0 +1,28 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "Curso de graphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Nadia Gincoff",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "babel": "^6.23.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dependencies": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.15",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
