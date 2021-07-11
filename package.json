@@ -1,5 +1,5 @@
 {
-  "name": "crmgraphql",
+  "name": "graphql-project",
   "version": "1.0.0",
   "description": "Curso de graphQL",
   "main": "index.js",
@@ -24,5 +24,14 @@
     "nodemon": "^2.0.7",
     "pg": "^8.6.0",
     "pg-hstore": "^2.3.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadiaGincoff/graphql-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nadiaGincoff/graphql-project/issues"
+  },
+  "homepage": "https://github.com/nadiaGincoff/graphql-project#readme"
 }

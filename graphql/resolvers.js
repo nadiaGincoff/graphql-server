@@ -161,11 +161,11 @@ const resolvers = {
         },
         deleteClient: async (_, { id }, context) => {
             const client = await Client.findById(id)
-            if (!client) throw new Error(`Client doesn't exist`)
-            if (client.seller.toString() !== context.user.id) throw new Error(`You don't have credentials :(`)
+            if (!client) throw new Error("Client doesn't exist")
+            if (client.seller.toString() !== context.user.id) throw new Error(`You don't have the credentials :(`)
             await Client.findOneAndDelete({ _id: id })
             return "Client deleted"
-        },
+        }
     }
 }
 
